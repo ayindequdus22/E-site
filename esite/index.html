@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANTEQS Ecommerce site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="aos.css">
+<script src="aos.js"></script>    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+     <script src="script/jquery.js"></script>
+   
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body style="position:relative" onload="getLocation()" >
+
+  <!-- Start: Preloader-->
+
+ <div class="preloader">
+    <div class="wrapper">
+      <div class="circle circle-1"></div>
+      <div class="circle circle-1a"></div>
+      <div class="circle circle-2"></div>
+      <div class="circle circle-3"></div>
+    </div>
+    <h1>Loading…</h1>
+  </div>
+  <!-- End: Preloader-->
+  
+<div class="body">
+   <div class="fas fa-arrow-up upBtn"></div>
+ 
+  <header class="header">
+    <a href="#" class="nav-logo">Anteqs</a>
+  <nav class="navbar">
+   <a href="#home" class="nav-link active">Home</a>
+    <a href="#products" class="nav-link">Products</a>  
+      <a href="#services" class="nav-link">Services</a>
+    <a href="#about" class="nav-link">About</a>  
+  <a href="#contact" class="nav-link contact-link">Contact</a>
+  </nav> 
+  <!-- icons -->
+  <div class="icon-btns">
+ <div class="fa-solid fa-circle-half-stroke icon" id="sun-icon"></div>
+ <div class="fa fa-heart"></div>
+<div class="fas fa-search icon" id="search-btn"></div>
+<div class="fas fa-shopping-cart icon" id="cart-btn"></div>
+<div class="fas fa-bars icon toggler-icon" id="toggler"></div>
+</div>  
+<!-- form  -->
+<form action="" class="search-form">
+  <input type="search" placeholder="search here" id="search-box">
+<label for="search-box" class="fas fa-search"></label>
+</form>
+
+<div class="shopping-cart">
+
+</div>
+ </header>
+ 
+
+
+ <!-- home -->
+ <section class="home" id="home">
+  <div class="swiper home-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide slide1">
+        <div class="content"  data-aos="zoom-in" data-aos-delay="500"  data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+          <h2  > <span class="typeme1"></span></h2>
+          <h1>Choose Anteqs Always for nice designs.</h1>
+           <button>Order Now</button>
+          </div>
+     </div>
+     <div class="swiper-slide slide2" >
+      <div class="content" >
+        <h2 > <span class="typeme2"></span></h2>
+        <h1>Awesome Discout for female clothing.</h1>
+         <button  data-wow-delay="5s">Order Now</button>
+        </div>
+   </div>
+   <div class="swiper-slide slide3">
+    <div class="content" >
+      <h2 > <span class="typeme3"></span></h2>
+      <h1 >Nice package for unisex product.</h1>
+       <button>Order Now</button>
+      </div>
+ </div>
+    </div>
+    <div class="swiper-pagination">
+  <span></span>
+  <span></span>
+  <span></span>
+  
+    </div>
+  </div> 
+ </section>
+
+
+<!-- product section -->
+<section >
+  <div class="products" id="products">
+<h1   data-aos="zoom-in" data-aos-easing="linear" data-aos-delay="1000" data-aos-anchor-placement="top-bottom" data-aos-duration="600">Our <span>Products</span></h1>
+<div class="product-link filter-button-group"  >
+  <button type="button" class="active-filter-btn list" data-aos-delay="700" data-filter="all" data-aos="fade-right" data-aos-duration="7000" data-aos-easing="linear">all</button>
+  <button type="button"  data-filter="shoes" class="list" data-aos-delay="700" data-filter="all" data-aos="fade-right" data-aos-duration="7000" data-aos-easing="linear">Shoes</button>
+  <button type="button" data-filter="watch" class="list" data-aos-delay="600" data-filter="all" data-aos="fade-down" data-aos-duration="7000" data-aos-easing="linear">Watches</button>
+  <button type="button" data-filter="hats" class="list" data-aos-delay="700" data-filter="all"data-aos="fade-left" data-aos-duration="7000" data-aos-easing="linear">Hats</button>
+  <button type="button" data-filter="man" class="list" data-aos-delay="700" data-filter="all"data-aos="fade-left" data-aos-duration="7000" data-aos-easing="linear">Man</button>
+</div>
+<div class="product-container1">
+  <div class="box box1 watch"  data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="linear">
+    <a class="fa fa-heart"></a>
+    <a class="fas fa-shopping-cart"></a>
+    <img src="img/product/10.jpg"  alt="">
+    <div class="content">
+      <p>Apple Watch</p>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <a> <span  class="btnanime10"></span></a>
+    </div>
+  </div>
+  <div class="box box2 man" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="linear">
+    <a class="fa fa-heart"></a>
+    <a class="fas fa-shopping-cart"></a>
+    <img src="img/product/3(4).png" alt="">
+    <div class="content">
+      <p>Unisex Hoodie</p>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <a> <span  class="btnanime9"></span></a>
+    </div>
+  </div>
+  <div class="box man box3" data-aos="fade-down" data-aos-delay="500" data-aos-duration="7000" data-aos-easing="linear">
+    <a class="fa fa-heart"></a>
+    <a class="fas fa-shopping-cart"></a>
+    <img src="img/product/21.jpg" alt="">
+    <div class="content">
+      <p>Hot Guy</p>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <a> <span  class="btnanime8"></span></a>
+    </div>
+  </div>
+  <div class="box man box4" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="linear">
+    <a class="fa fa-heart"></a>
+    <a class="fas fa-shopping-cart"></a>
+      <img src="img/product/17.jpg" alt="">
+      <div class="content">
+        <p>Unisex Shirt</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <a> <span  class="btnanime7"></span></a>
+      </div>
+    </div>
+    <div class="box hats box5" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="linear">
+      <a class="fa fa-heart"></a>
+      <a class="fas fa-shopping-cart"></a>
+      <img src="img/product/18.jpg" alt="">
+      <div class="content">
+        <p>Nice Hat</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <a> <span  class="btnanime6"></span></a>
+      </div>
+    </div>
+      <div class="box shoes box1" data-aos="fade-right" data-aos-delay="500" data-aos-duration="9000" data-aos-easing="linear">
+        <a class="fa fa-heart"></a>
+        <a class="fas fa-shopping-cart"></a>
+    <img src="img/product/7.jpg" alt="">
+    <div class="content">
+      <p>Nice Addidas</p>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half"></i>
+      <a> <span class="btnanime2"></span></a>
+    </div>
+  </div>
+  <div class="box hats box2" data-aos="fade-right" data-aos-delay="500" data-aos-duration="9000" data-aos-easing="linear"> 
+    <a class="fa fa-heart"></a>
+    <a class="fas fa-shopping-cart"></a>
+    <img src="img/product/5.jpg" alt="">
+    <div class="content">
+      <p>Nice Hat</p>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half"></i>
+      <a> <span class="btnanime3"></span></a>
+    </div>
+  </div>
+  <div class="box hats box6" data-aos="fade-up" data-aos-delay="500" data-aos-duration="7000" data-aos-easing="linear">
+ <a class="fa fa-heart"></a>
+<a class="fas fa-shopping-cart"></a>
+    <img src="img/product/15.jpg" alt="">
+    <div class="content">
+      <p>Nice Hat</p>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <a> <span  class="btnanime5"></span></a>
+    </div>
+    
+  
+  </div>
+  <div class="box watch box4" data-aos="fade-left" data-aos-delay="500" data-aos-duration="9000" data-aos-easing="linear">
+    <a class="fa fa-heart"></a>
+    <a class="fas fa-shopping-cart"></a>
+    <img class="image" src="img/product/collection_2_2.jfif" alt="">
+    <div class="content">
+      <p>Nice Watch</p>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <a> <span  class="btnanime1"></span></a>
+    </div>
+  </div>
+  <div class="box shoes box5" data-aos="fade-left" data-aos-delay="500" data-aos-duration="9000" data-aos-easing="linear">
+    <a class="fa fa-heart"></a>
+    <a class="fas fa-shopping-cart"></a> 
+    <img src="img/product/12.jpg" alt="">
+    <div class="content">
+      <p>Dope Nike</p>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <a> <span  class="btnanime4"></span></a>
+    </div>
+  </div>
+
+</div>  
+
+</div>
+</section>
+<section class="services" id="services">
+ <h1 data-aos="zoom-in" data-aos-duration="7000" data-aos-easing="linear">Our <span>Services</span></h1>
+ <div class="content"data-aos="zoom-in" data-aos-duration="7000" data-aos-easing="linear">
+  
+<div class="image-gallery" data-aos="fade-right" data-aos-duration="10000" data-aos-easing="linear">
+  <div>
+    <img src="img/product/1(2).jpg" class="image1" alt=""> 
+  </div>
+  <div class="img_prob">
+    <img src="img/product/2(2).jpg" class="image2" alt="">
+  </div>
+  <div>
+     <img src="img/product/4(2).jpg" class="image3" alt="">
+  </div>
+  <div>
+     <img src="img/product/3(2).jpg" class="image4" alt="">
+  </div>
+
+</div>
+
+<div class="imgBx imgBxTop" data-aos="zoom-in" data-aos-duration="10000" data-aos-easing="linear">
+  <img src="img/product/1(2).jpg" class="bg_image" alt="">
+</div>
+
+<div class="img_description" data-aos="fade-left" data-aos-duration="7000" data-aos-easing="linear">
+<h1>We give nice discounted prices </h1>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<p class="lorem_para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, necessitatibus! Voluptates tenetur nemo, dicta atque beatae repellat voluptas quidem architecto dolor hic minus iusto nihil earum odio voluptatem porro unde.</p>
+<p class="pricepara">Only $50.99</p>
+<button>Buy Now</button>
+</div>
+
+</div>
+</section>
+<section class="countdown">
+
+ <div class="count-box">
+     <h1><span>Fantastic 2022 Offers</span></h1>
+  <div class="box">
+    <h1>2022 Product Countdown</h1>
+    <div class="timing">
+    <div class="box">
+      <h3 id="day">00</h3>
+      <span>day</span>
+    </div>
+    <div class="box">
+      <h3 id="hour">00</h3>
+   <span>hour</span>
+    </div>
+    <div class="box">
+      <h3 id="minute">00</h3>
+   <span>minute</span>
+    </div>
+    <div class="box">
+      <h3 id="second">00</h3>
+   <span>second</span>
+    </div>
+  </div>
+  </div>
+<center><a href="#" class="btn">Subscribe Now</a></center>
+</div>
+  
+</div>
+</section>
+
+<section class="contact" id="contact">
+
+  <h1 class="contact_heading"> <span>Contact us </span></h1>
+
+  <div class="row">
+
+      <iframe class="map" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=30 Alhaji Kosoko St, Ojodu 102109, Ojodu Berger&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"allowfullscreen="" loading="lazy"></iframe>
+
+      <form action="">
+          <h3>Follow Us</h3>
+          <div class="inputBox">
+              <span class="fas fa-user"></span>
+              <input type="text" placeholder="name">
+          </div>
+          <div class="inputBox">
+              <span class="fas fa-envelope"></span>
+              <input type="email" placeholder="email">
+          </div>
+          <div class="inputBox">
+              <span class="fas fa-phone"></span>
+              <input type="number" placeholder="number">
+          </div>
+          <input type="submit" placeholder="contact now" class="btn">
+      </form>
+
+  </div>
+
+</section>
+
+<section class="sub">
+
+  <div>
+    <h1> <span>News Letter</span></h1>
+<h2>Subscribe Now To Get Latest Updates On Our Products</h2>
+    <form action="">
+      <input type="text" class="append_input" placeholder="Enter E-mail To Get Updates">
+      <button type="submit" class="append_btn">Subscribe</button>
+    </form>
+  </div>
+</section>
+<footer>
+<h1 style="text-align: center;">Created And Designed By Anteqs</h1>
+</footer>
+
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+  
+  
+  function getLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.watchPosition(showPosition, showError);
+    } else { 
+   console.log("Geolocation is not supported by this browser.");
+    }
+  }
+  
+  function showPosition(position) {
+    console.log("Latitude: " + position.coords.latitude + 
+    "Longitude: " + position.coords.longitude);
+  }
+  
+  function showError(error) {
+    switch(error.code) {
+      case error.PERMISSION_DENIED:
+ console.log("User denied the request for Geolocation.");
+        break;
+      case error.POSITION_UNAVAILABLE:
+  console.log("Location information is unavailable.")
+        break;
+      case error.TIMEOUT:
+   console.log("The request to get user location timed out.")
+        break;
+      case error.UNKNOWN_ERROR:
+   console.log("An unknown error occurred.");
+        break;
+    }
+  }
+  AOS.init();
+  </script>
+  
+<script src="script/index.js"></script>
+<script src="script/swiper-bundle.min.js"></script>
+<script src="script/typed.js"></script> 
+
+</body>
+</html
